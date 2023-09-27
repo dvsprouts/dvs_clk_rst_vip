@@ -4,7 +4,10 @@ Features:
 --------
 
 - The clock and reset interface is parameterized by a number of clocks (N_CLKS) and a number of resets (N_RSTS).
-  ![image](https://github.com/dvsprouts/dvs_clk_rst_vip/assets/143346539/767aff67-23c0-40b7-b02c-9073ca8bc28c)
+
+![image](https://github.com/dvsprouts/dvs_clk_rst_vip/assets/143346539/cbf0ce6f-25b9-4112-b86f-480dd1a9a267)
+
+
 
 
 - The interface is designer-friendly which means for basic usage it can be used to drive clocks and resets without the need to create an uvm environment, as it has tasks to do that.
