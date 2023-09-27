@@ -4,6 +4,8 @@ Features:
 --------
 
 - The clock and reset interface is parameterized by a number of clocks (N_CLKS) and a number of resets (N_RSTS).
+  ![image](https://github.com/dvsprouts/dvs_clk_rst_vip/assets/143346539/767aff67-23c0-40b7-b02c-9073ca8bc28c)
+
 
 - The interface is designer-friendly which means for basic usage it can be used to drive clocks and resets without the need to create an uvm environment, as it has tasks to do that.
 
@@ -38,3 +40,5 @@ Features:
 - The coverage model could be enabled/disabled and there are other knobs for clock, active_high, active_low, synchronous, and asynchronous coverage.
 
 - The coverage is only over the action, but it could be extended as needed.
+  
+- For more information and help with how to integrate it, please write to support@dvsprouts.com
